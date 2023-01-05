@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,600&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior:smooth;
+}
+#wholecontent{
+    min-height: 100vh;
+    width: 100%;
+    background-color: gainsboro;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 50px #7a89ac;
+    background-color: #12151e;
+}
+
+
+span{
+    font-weight: bold;
+}
+#car{
+    height: 30rem;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 0px;
+    overflow: scroll;
+    border-radius:1rem;
+}
+#car::-webkit-scrollbar{
+    scroll-behavior: smooth;
+    display: none;
+}
+#car:hover{
+    box-shadow: inset 5px 5px 12px #ffffff,
+               5px 5px 12px rgba(0,0,0,.16);
+    background-color: #ecf0f3;
+}
+
+.secssion{
+    background-color: gainsboro;
+    display: grid;
+    justify-content: center;
+    grid-column: 1 span;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); 
+    width: 100%;
+    gap:0.5rem;
+    margin-top: 2rem;
+}
+.brand{
+    text-transform: capitalize;
+}
+.inline1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
