@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded",()=>{
-    
+    //Declare API links for 10 Brands 
 let productBlush = "https://makeup-api.herokuapp.com/api/v1/products.json?product_type=blush";
 let productBronzers = "https://makeup-api.herokuapp.com/api/v1/products.json?product_type=bronzer";
 let productEyebrow = "https://makeup-api.herokuapp.com/api/v1/products.json?product_type=eyebrow";
@@ -10,8 +10,8 @@ let productLip_liner = "https://makeup-api.herokuapp.com/api/v1/products.json?pr
 let productLipstick = "https://makeup-api.herokuapp.com/api/v1/products.json?product_type=lipstick";
 let productMascara = "https://makeup-api.herokuapp.com/api/v1/products.json?product_type=mascara";
 let productNail_polish = "https://makeup-api.herokuapp.com/api/v1/products.json?product_type=nail_polish";
-let user = [];
 
+// Navbar impelmentation ---------------------------------------------------------------------------------------------
 
 let nav = document.getElementById("navbar")
 nav.innerHTML=`<nav class="navbar navbar-expand-lg navbar-dark" id ="navbar">
