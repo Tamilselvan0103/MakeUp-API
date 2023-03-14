@@ -1,15 +1,15 @@
 document.addEventListener("DOMContentLoaded",()=>{
     //Declare API links for 10 Brands 
-let productBlush = "https://makeup-api.herokuapp.com/api/v1/products.json?product_type=blush";
-let productBronzers = "https://makeup-api.herokuapp.com/api/v1/products.json?product_type=bronzer";
-let productEyebrow = "https://makeup-api.herokuapp.com/api/v1/products.json?product_type=eyebrow";
-let productEyeliner = "https://makeup-api.herokuapp.com/api/v1/products.json?product_type=eyeliner";
-let productEyeshadow = "https://makeup-api.herokuapp.com/api/v1/products.json?product_type=eyeshadow";
-let productFoundation = "https://makeup-api.herokuapp.com/api/v1/products.json?product_type=foundation";
-let productLip_liner = "https://makeup-api.herokuapp.com/api/v1/products.json?product_type=lip_liner";
-let productLipstick = "https://makeup-api.herokuapp.com/api/v1/products.json?product_type=lipstick";
-let productMascara = "https://makeup-api.herokuapp.com/api/v1/products.json?product_type=mascara";
-let productNail_polish = "https://makeup-api.herokuapp.com/api/v1/products.json?product_type=nail_polish";
+let productBlush = "https://makeup-api.herokuapp.com/api/v1/products.json?product_type=blush&per_page=13";
+let productBronzers = "https://makeup-api.herokuapp.com/api/v1/products.json?product_type=bronzer&per_page=13";
+let productEyebrow = "https://makeup-api.herokuapp.com/api/v1/products.json?product_type=eyebrow&per_page=13";
+let productEyeliner = "https://makeup-api.herokuapp.com/api/v1/products.json?product_type=eyeliner&per_page=13";
+let productEyeshadow = "https://makeup-api.herokuapp.com/api/v1/products.json?product_type=eyeshadow&per_page=13";
+let productFoundation = "https://makeup-api.herokuapp.com/api/v1/products.json?product_type=foundation&per_page=13";
+let productLip_liner = "https://makeup-api.herokuapp.com/api/v1/products.json?product_type=lip_liner&per_page=13";
+let productLipstick = "https://makeup-api.herokuapp.com/api/v1/products.json?product_type=lipstick&per_page=13";
+let productMascara = "https://makeup-api.herokuapp.com/api/v1/products.json?product_type=mascara&per_page=13";
+let productNail_polish = "https://makeup-api.herokuapp.com/api/v1/products.json?product_type=nail_polish&per_page=13";
 
 // Navbar impelmentation ---------------------------------------------------------------------------------------------
 
